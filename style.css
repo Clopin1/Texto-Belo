@@ -1,0 +1,56 @@
+.texto{
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #ff7b00, #ff00aa);
+
+    padding: 25px;
+    margin: 30px auto;
+    width: 70%;
+
+    border: 6px solid cyan;
+    border-radius: 25px;
+
+    font-size: 38px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    text-shadow: 2px 2px 5px black;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.texto:hover{
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #00c3ff, #6f00ff);
+    border-color: yellow;
+}
+
+img{
+    image-rendering: pixelated;
+    filter:
+        grayscale(1)
+        contrast(900%)
+        blur(2px);
+    transform:
+        scaleX(1.4)
+        scaleY(1)
+        skewX(12deg);
+    opacity: .6;
+}
+
+button{
+    position: relative;
+    top: 8px;
+    right: 16px;
+    font-size: 20px;
+    background: gold;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
